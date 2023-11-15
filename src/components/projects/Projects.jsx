@@ -29,7 +29,7 @@ const items = [
     title: "Discord Clone with Next.js/React",
     url: "https://discordclone-production-6abb.up.railway.app",
     img: "https://images.unsplash.com/photo-1614680376739-414d95ff43df",
-    desc: "This app is built with the newest technologies featuring Nextjs 13 App router, Typescript, MySQL, prisma, react-query, zustand, uploadThing, livekit, clerk, TailwindCSS, websockets and etc.",
+    desc: "This app is built with the newest technologies featuring Nextjs 13 App router, Typescript, MySQL, prisma, react-query, zustand, uploadThing, livekit, clerkjs, TailwindCSS, websockets and etc.",
   },
 ];
 
@@ -57,7 +57,7 @@ const Single = ({ item }) => {
                 window.open(item.url, "_blank", "noopener,noreferrer")
               }
             >
-              See Demo
+              See Website
             </button>
           </motion.div>
         </div>

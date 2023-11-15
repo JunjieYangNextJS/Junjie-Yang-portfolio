@@ -36,24 +36,30 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          I always adapt and learn new things
+          <br /> and put them to great use
         </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
-          <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
-          </h1>
+          {/* <img src="/people.webp" alt="" /> */}
+          <p style={{ fontSize: "34px", paddingBottom: "80px" }}>
+            <motion.b whileHover={{ color: "orange" }}>
+              I am a hands-on guy
+            </motion.b>{" "}
+            who can build your web apps from scratch and escalate your web apps
+            to the next level.
+          </p>
         </div>
         <div className="title">
-          <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
-            Business.
-          </h1>
-          <button>WHAT WE DO?</button>
+          <p style={{ fontSize: "34px" }}>
+            <motion.b whileHover={{ color: "orange" }}>
+              I have great expertises on,
+            </motion.b>{" "}
+            including but not limited to, the following technologies:
+          </p>
+          {/* <button>WHAT WE DO?</button> */}
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -61,53 +67,65 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Frontend</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          <h2>Working with Frontend</h2>
+          <ul>
+            <li>React</li>
+            <li>NextJS</li>
+            <li>Redux</li>
+            <li>Zustand</li>
+            <li>Typescript</li>
+            <li>Animations</li>
+            <li>Livekit</li>
+            <li>Cypress</li>
+          </ul>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          <h2>Working with Backend</h2>
+          <ul style={{ fontSize: "20px" }}>
+            <li>NodeJS</li>
+            <li>ExpressJS</li>
+            <li>NextJS</li>
+            <li>Sessions/JWT</li>
+            <li>Typescript</li>
+            <li>Amazon S3</li>
+            <li>UploadThing</li>
+            <li>Websockets</li>
+          </ul>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          <h2>Working with Data</h2>
+          <ul style={{ fontSize: "20px" }}>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>Firebase</li>
+            <li>Prisma</li>
+            <li>REST Api</li>
+            <li>GraphQL</li>
+            <li>RTK Query</li>
+            <li>React Query</li>
+          </ul>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          <h2>Building UI</h2>
+          <ul style={{ fontSize: "20px" }}>
+            <li>CSS style sheet</li>
+            <li>HTML</li>
+            <li>TailwindCSS</li>
+            <li>SCSS</li>
+            <li>Styled Components</li>
+            <li>Material UI</li>
+            <li>Shadcn/ui</li>
+            <li>Mantine</li>
+          </ul>
         </motion.div>
       </motion.div>
     </motion.div>
