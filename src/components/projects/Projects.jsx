@@ -57,7 +57,7 @@ const Single = ({ item }) => {
                 window.open(item.url, "_blank", "noopener,noreferrer")
               }
             >
-              See Website
+              See Web App
             </button>
           </motion.div>
         </div>
