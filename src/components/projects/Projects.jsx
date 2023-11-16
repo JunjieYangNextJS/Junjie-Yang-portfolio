@@ -29,7 +29,7 @@ const items = [
     title: "Discord Clone with Next.js/React",
     url: "https://discordclone-production-6abb.up.railway.app",
     img: "https://images.unsplash.com/photo-1614680376739-414d95ff43df",
-    desc: "This app is built with the newest technologies featuring Nextjs 13 App router, Typescript, MySQL, prisma, react-query, zustand, uploadThing, livekit, clerkjs, TailwindCSS, websockets, etc.  Please create your own or sign in with the following gmail accounts for your experience. Gmail: discordtestaccoun2@gmail.com password: yourpassword Gmail: discordtestaccoun3@gmail.com password: yourpassword",
+    desc: "This app is built with the newest technologies featuring Nextjs 13 App router, Typescript, MySQL, prisma, react-query, zustand, uploadThing, livekit, clerkjs, TailwindCSS, websockets, etc.  Please create your own or sign in with the following gmail accounts for complete experience. Gmail: discordtestaccoun2@gmail.com password: yourpassword Gmail: discordtestaccoun3@gmail.com password: yourpassword",
   },
 ];
 
