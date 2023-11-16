@@ -37,13 +37,6 @@ const Navbar = () => {
           >
             <img src="/x.webp" alt="twitter" />
           </a>
-
-          {/* <a href="#">
-            <img src="/youtube.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="" />
-          </a> */}
         </div>
       </div>
     </div>

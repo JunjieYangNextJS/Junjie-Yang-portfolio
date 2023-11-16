@@ -61,7 +61,7 @@ const Hero = () => {
             variants={textVariants}
             animate="scrollButton"
             src="/scroll.png"
-            alt=""
+            alt="scroll"
           />
         </motion.div>
       </div>
@@ -71,10 +71,10 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Writer Content Creator Influencer
+        React/Next Fullstack Developer
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/me3.png" alt="Junjie Yang" />
       </div>
     </div>
   );

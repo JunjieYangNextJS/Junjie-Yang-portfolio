@@ -43,7 +43,6 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          {/* <img src="/people.webp" alt="" /> */}
           <p style={{ fontSize: "34px", paddingBottom: "80px" }}>
             <motion.b whileHover={{ color: "orange" }}>
               I am a hands-on guy
@@ -57,9 +56,8 @@ const Services = () => {
             <motion.b whileHover={{ color: "orange" }}>
               I have great expertises on,
             </motion.b>{" "}
-            including but not limited to, the following technologies:
+            including but not limited to, the followings:
           </p>
-          {/* <button>WHAT WE DO?</button> */}
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -75,7 +73,7 @@ const Services = () => {
             <li>Zustand</li>
             <li>Typescript</li>
             <li>Animations</li>
-            <li>Livekit</li>
+            <li>Frontend SEO</li>
             <li>Cypress</li>
           </ul>
         </motion.div>
@@ -90,8 +88,8 @@ const Services = () => {
             <li>NextJS</li>
             <li>Sessions/JWT</li>
             <li>Typescript</li>
-            <li>Amazon S3</li>
-            <li>UploadThing</li>
+            <li>Amazon S3/UploadThing</li>
+            <li>Backend SEO</li>
             <li>Websockets</li>
           </ul>
         </motion.div>
