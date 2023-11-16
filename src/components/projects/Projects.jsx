@@ -8,28 +8,28 @@ const items = [
     title: "Social Media App with MERN Stack",
     url: "https://www.priders.net",
     img: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7",
-    desc: "This social media app is built with industry standard technologies featuring React, Nodejs, Express, Mongodb, Amazon S3, react-redux, RTK query, websockets, JWT authentication flow, REST apis and etc. This app was officially launched on 10/06/2022 and now has over 200 registered users and over 50 active posters.",
+    desc: "This social media app is built with industry standard technologies featuring React, Nodejs, Express, Mongodb, Amazon S3, react-redux, RTK query, websockets, JWT authentication flow, REST apis, etc. This app was officially launched on 10/06/2022 and now has over 200 registered users and over 50 active posters.",
   },
   {
     id: 2,
     title: "Food Finder App with Next.js/React",
     url: "https://cheap-and-yummy.vercel.app",
     img: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
-    desc: "This app utilizes data from Yelp Fusion API and Google Map API. It is built with the newest technologies featuring Nextjs 13 App router, Typescript, Zustand, TailwindCSS, react-query and etc.",
+    desc: "This app utilizes data from Yelp Fusion API and Google Map API. It is built with the newest technologies featuring Nextjs 13 App router, Typescript, Zustand, TailwindCSS, react-query, etc.",
   },
   {
     id: 3,
     title: "E-commerce App with Next.js/React",
     url: "https://junjie-yang-e-commerce-project-60mk4jf6m-junjieyangnextjs.vercel.app",
     img: "https://images.unsplash.com/photo-1557176595-c6fce4b961e7",
-    desc: "This app is built with modern technologies featuring Nextjs page router, Typescript, Next-Auth, Firebase, Session authentication flow, styled-components, react-redux and etc.",
+    desc: "This app is built with modern technologies featuring Nextjs page router, Typescript, Next-Auth, Firebase, Session authentication flow, styled-components, react-redux, etc.",
   },
   {
     id: 4,
     title: "Discord Clone with Next.js/React",
     url: "https://discordclone-production-6abb.up.railway.app",
     img: "https://images.unsplash.com/photo-1614680376739-414d95ff43df",
-    desc: "This app is built with the newest technologies featuring Nextjs 13 App router, Typescript, MySQL, prisma, react-query, zustand, uploadThing, livekit, clerkjs, TailwindCSS, websockets and etc.  Please create your own or sign in with the following gmail accounts for your experience. Gmail: discordtestaccoun2@gmail.com password: yourpassword Gmail: discordtestaccoun3@gmail.com password: yourpassword",
+    desc: "This app is built with the newest technologies featuring Nextjs 13 App router, Typescript, MySQL, prisma, react-query, zustand, uploadThing, livekit, clerkjs, TailwindCSS, websockets, etc.  Please create your own or sign in with the following gmail accounts for your experience. Gmail: discordtestaccoun2@gmail.com password: yourpassword Gmail: discordtestaccoun3@gmail.com password: yourpassword",
   },
 ];
 
